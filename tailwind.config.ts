@@ -7,10 +7,16 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    container: {
+      center: true,
+    },
+    
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#727272",
+        secondary: "#0c0c0d",
+        tertiary: "#111",
+        borderColor: "#3e3e3e",
       },
     },
   },
