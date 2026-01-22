@@ -12,3 +12,17 @@ export interface CustomButtonProps {
   onClick?: MouseEventHandler<HTMLButtonElement>;
 }
 
+const CustomButton = ({
+  title,
+  btnType = "button",
+  containerStyles,
+  onClick,
+  textStyles,
+  to
+}: CustomButtonProps) => (
+  if (btnType === "button") {
+  return (
+    <Link href={to!} className={"1 flexCenter gap-3 $Container}}>
+    )
+  }
+)
